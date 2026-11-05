@@ -1,0 +1,13 @@
+[package]
+name = "rs-compression-lz"
+version = "1.0.0"
+edition = "2021"
+description = "LZ77 compression with sliding window and lazy matching"
+license = "MIT"
+authors = ["Mahmoud ElNemer <sultanelnemer@gmail.com>"]
+repository = "https://github.com/ElNeMeR70/rs-compression-lz"
+keywords = ["rust", "lz77", "compression", "performance", "algorithms"]
+
+[[bin]]
+name = "rs_compression_lz"
+path = "main.rs"
